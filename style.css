@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.add {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
