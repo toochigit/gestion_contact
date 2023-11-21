@@ -1,7 +1,7 @@
 <?php
     //connexion à la base de données
-    $connexion = new mysqli("127.0.0.1", "root", "root", "gestion_contact")
-    // include ('add_contact.php');
+    // $connexion = new mysqli("127.0.0.1", "root", "root", "gestion_contact")
+    include ('add_contact.php');
 ?>
 
 <!DOCTYPE html>
@@ -33,3 +33,5 @@
 
 </body>
 </html>
+
+<!-- fait en 3heures de cours sans comprendre -->
