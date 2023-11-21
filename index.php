@@ -1,7 +1,7 @@
 <?php
     //connexion à la base de données
     // $connexion = new mysqli("127.0.0.1", "root", "root", "gestion_contact")
-    include ('add_contact.php');
+    //include ('add_contact.php');
 ?>
 
 <!DOCTYPE html>
@@ -18,7 +18,8 @@
     <h2>ajout d'un contact :</h2>
 
     <section class="add">
-
+        
+        <form class="add"method="post"action="add_contact.php">
         <label class="add_prenom" for="prenom">Prenom :</label>
         <input class="add_prenom" type="text" id="prenom" name="prenom" required><br><br>
         <label class="add_nom" for="nom">Nom :</label>
@@ -27,7 +28,8 @@
         <input class="add_tel" type="int" id="tel" name="tel" required><br><br>
         <label class="add_email" for="email">Email :</label>
         <input class="add_email" type="text" id="email" name="email" required><br><br>
-        
+        </form>
+
         <input type="submit" value="send">
     </section>
 
